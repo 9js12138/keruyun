@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- jquery -->
+    <script src="../../../框架/jquery-3.2.1 (1)/jquery-3.2.1.min.js"></script>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../../../框架/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <!-- bootstrap js -->
+    <script src="../../../框架/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <!-- category css -->
+    <link rel="stylesheet" href="../../css//category.css">
+    <!-- public css -->
+    <link rel="stylesheet" href="../../css/public.css">
+    <!-- category js -->
+    <script src="../../js/category.js"></script>
+    <!-- public js -->
+    <script src="../../js/public.js"></script>
+    <style>
+        .page_ma1n {
+            width: 100%;
+            margin: 10px 0;
+            background-color: white;
+            float: left;
+        }
+
+        .main_left {
+            width: 20%;
+            float: left;
+            position: relative;
+
+        }
+
+        .main_left ul {
+            position: fixed;
+            padding: 0;
+            margin: 10px 0 0;
+        }
+
+        .main_left li {
+            list-style: none;
+            text-align: center;
+            font-size: 16px;
+            padding: 20px 40px 10px;
+            margin: 0 10px;
+            border: 1px solid rgb(202, 201, 201);
+        }
+
+        .main_right {
+            width: 80%;
+            float: right;
+        }
+
+        .main_right li {
+            list-style: none;
+            text-align: center;
+            float: left;
+            margin: 5px 10px 20px;
+            height: 200px;
+            width: 200px;
+        }
+
+
+        h3 {
+            float: left;
+            padding: 20px;
+            display: block;
+            width: 100%;
+        }
+
+        .main_right a {
+            padding: 100px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page_head">
+        <div class="head_left">
+            <img src="" alt="">这里是logo
+        </div>
+
+        <div class="head_main">
+            欢迎来到客如云点餐系统
+        </div>
+        <div class="head_right">
+            <a href="javascript:;" class="sign">注册</a>
+            <a href="javascript:;" class="land">登录</a>
+        </div>
+    </div>
+    <div class="page_nav">
+        <ul class="nav">
+            <li><a href="../首页/index.html">首页</a></li>
+            <li><a href="../分类/category.html">分类</a> </li>
+            <li><a href="../分类/category.html">购物车</a> </li>
+            <li><a href="../分类/category.html">我的</a> </li>
+        </ul>
+        <input class="nav_seach" type="text" placeholder="搜索">
+    </div>
+
+
+    <div class="page_ma1n">
+        <div class="main_left">
+            <ul>
+                <li class="current">主食</li>
+                <li>小吃</li>
+                <li>套餐</li>
+                <li>饮品</li>
+            </ul>
+        </div>
+        <div class="main_right">
+            <h3>主食</h3>
+
+            <br>
+            <ul>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+            </ul>
+            <h3>小吃</h3>
+            <br>
+            <ul>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+            </ul>
+            <h3>套餐</h3>
+            <br>
+            <ul>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+            </ul>
+            <h3>饮品</h3>
+            <br>
+            <ul>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+                <li class="detail">
+                    <img src="../../../images/7b24d46ca9b34fd4.jpg.webp" width="100%" alt="">
+                    <p>￥123</p>
+                    <p>商品介绍</p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="page_foot">
+        <p>联系我们</p>
+        <p>意见反馈</p>
+        <p>有关</p>
+    </div>
+
+
+    <div id="hidden"></div>
+    <div class="sign_up">
+        <div class="close_btn">X</div>
+        <form class="form-horizontal" role="form">
+            <p>用户注册</p>
+            <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">邮箱</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="请输入邮箱">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="username" class="col-sm-2 control-label">用户名</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="username" placeholder="请输入用户名">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password" class="col-sm-2 control-label">登录密码</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="password" placeholder="请输入登录密码">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">注册</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="login">
+        <div class="close_btn">X</div>
+        <form class="form-horizontal" role="form">
+            <p>用户登录</p>
+            <div class="form-group">
+                <label for="username" class="col-sm-2 control-label">用户名</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="username" placeholder="请输入用户名">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password" class="col-sm-2 control-label">登录密码</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="password" placeholder="请输入登录密码">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox">请记住我
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">登录</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="details">
+        <div class="close_btn">X</div>
+        <img class="details_img" src="../../../images/739d9b28bc8b5587.jpg.webp" width="100%" alt="">
+        <div class="details_msg">名称：<p>qwq</p>
+            价格：<p>$122</p>
+            数量：<button>-</button>
+            <span class="nub">22</span>
+            <button>+</button>
+        </div>
+        <input type="button" class="add_cart" value="加入购物车"></input>
+        <input type="button" class="goto_pay" value="立即购买"></input>
+    </div>
+
+</body>
+
+</html>
